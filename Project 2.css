@@ -1,0 +1,412 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav-Section{
+    width: 100%;
+    height: 15vh;
+    background-color:black;
+    position:sticky;
+}
+
+.nav-Block{
+    width: 95%;
+    height: inherit;
+    /* background-color: blueviolet; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-Block{
+    flex-basis: 10%;
+    /* background-color: brown; */
+}
+
+.logo-Block > h1 > a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.menu-Block{
+    flex-basis: 75%;
+    /* background-color: cadetblue; */
+}
+
+.menu-Block > ul {
+    list-style: none;
+    display:flex;
+    align-items: center;
+    justify-content:start;
+
+}
+
+.menu-Block > ul > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+.register-Block{
+    /* background-color: rgb(20, 220, 73); */
+    flex-basis: 15%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.search-Icon{
+    color: white;
+}
+
+.register > input{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 12px;
+    border: 2px solid white;
+}
+
+#main{
+    /* background-color: chartreuse; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+}
+
+.main-Block{
+    width: 95%;
+    height: inherit;
+    /* background-color: aqua; */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content-Block > .paragraph{
+    font-size: 50px;
+    /* padding: 20px; */
+    text-transform: capitalize;
+    margin: 30px;
+ }
+
+.content-Block > p{
+    /* padding: 20px; */
+    margin: 30px;
+} 
+
+.content-Block > input{
+    padding: 10px;
+    position:relative;
+    left: 40px;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.content-Block >.view:hover{
+    background-color:rgb(255, 255, 0,0.9);
+}
+.content-Block > .contact:hover{
+   background-color:rgb(255, 255, 0,0.9);
+}
+
+.image-Block > img{
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+#sub-Main{
+   /* background-color: chartreuse; */
+   height:80vh;
+   background-image:url(./ASSESTS/meeting.png);
+   background-size:cover;
+
+}
+
+.submain-Block{
+   width: 100%;
+   height: inherit;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+   justify-content:space-around;
+   background-color: black;
+   opacity: 0.7;
+}
+
+.detail-Block{
+   font-family: 'Lora', serif;
+    font-size: 20px;
+}
+
+
+.detail-Block > h1{
+    color: white;
+    font-size: 32px;
+    margin: 20px;
+}
+
+.detail-Block >p {
+    color: white;
+    font-size: 18px;
+    margin: 20px;
+}
+
+.maild ,.earlyaccess{
+    padding: 18px;
+    border-radius: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.earlyaccess:hover{
+ background-color: yellow;
+ color: black;
+ font-weight: bold;
+}
+
+.client-Block{
+    display: flex;
+}
+
+.projects{
+    position: relative;
+    left: 20px;
+}
+.countries{
+    position: relative;
+    left: 100px;
+}
+.client{
+    position:relative;
+    left: -170px;
+    top: 100px;
+}
+
+#service-Page{
+    /* background-color: aqua; */
+    height: 100vh;
+}
+
+#service-Page > h1 {
+    text-align: center;
+}
+
+#service-Page > p{
+    text-align: center;
+}
+
+.service-Block{
+   background-color: black;
+   background-size: cover;
+   height: 75vh;
+   width: 80vw;
+   margin: 0 auto;
+   opacity: 0.7;
+   z-index:1;
+   position: relative;
+}
+
+.block1{
+    display: flex;
+}
+
+.block2{
+    display: flex;
+}
+.sec1 , .sec2 , .sec3 , .sec4 , .sec5 , .sec6{
+    text-align:start;
+    color: white;
+    z-index:3;
+    /* padding: 15px; */
+}
+
+.sec1{
+    padding: 15px;
+}
+
+.sec2{
+    padding: 15px;
+}
+
+.sec3{
+    padding: 15px;
+}
+
+.sec4{
+    padding: 15px;
+}
+
+.sec5{
+    padding: 15px;
+}
+.sec6{
+    padding: 15px;
+}
+
+.sec6:hover{
+  background-color: yellow;
+  color: black;
+}
+.sec5:hover{
+    background-color: yellow;
+     color: black;
+}
+.sec4:hover{
+    background-color: yellow;
+     color: black;
+}
+.sec3:hover{
+    background-color: yellow;
+     color: black;
+}
+.sec2:hover{
+    background-color: yellow;
+     color: black;
+}
+.sec1:hover{
+    background-color: yellow;
+     color: black;
+}
+
+.di{
+   height: 75vh;
+   width: 80vw;
+   margin: 0 auto;
+   z-index: 0;
+   position: relative;
+   background-image:url(./ASSESTS/photo-1603202662747-00e33e7d1468.avif);
+   background-size:cover;
+}
+
+.content{
+    text-align:center;
+    border: 1px solid black;
+    background-color: rgb(240, 240, 240);
+    border-radius: 15px;
+    position: relative;
+    top: -130px;
+    margin: 60px;
+}
+
+.content > p{
+    padding: 30px;
+}
+.content > input{
+    padding: 20px;
+    border-radius: 20px;
+    size:20px;
+}
+
+.content > input:hover{
+    background-color: yellow;
+}
+.content+h2{
+    text-align: center;
+    position: relative;
+    top: -150px;
+}
+
+#news-Block > img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    position: relative;
+    left: 550px;
+    top: -100px;
+    z-index:1;
+}
+
+.feedback-Block{
+ border: 1px solid black;
+ text-align: center;
+ position: relative;
+ top: -285px;
+ padding: 40px;
+ margin: 120px;
+ border-radius: 20px;
+ background-color: rgb(240, 240, 240);
+ box-shadow: 1px 1px 1px 1px;
+}
+
+#footer-Section{
+    background-image: url(./ASSESTS/group-diverse-people-having-business-meeting_53876-25060.jpg);
+    background-size: cover;
+    position: relative;
+    top:-360px;
+    height: 50vh;
+    z-index: 0;
+}
+
+.block{
+    background-color: black;
+    height: inherit;
+    opacity: 0.8;
+    z-index: 1;
+}
+
+.block > h2{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.block > p{
+    color: white;
+    text-align: center;
+}
+.block > input{
+    position: relative;
+    text-align: center;
+    left: 450px;
+    padding: 20px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+#footer-Block > h2{
+    position: relative;
+    left: 570px;
+    top: -300px;
+}
+
+.footer-End > p{
+    position: relative;
+    left: 200px;
+    top: -250px;
+}
+
+.footer-End >ul{
+    position: relative;
+    left: 600px;
+}
+
+.footer-End{
+    display: flex;
+}
+
+.footer-End > ul > li {
+    list-style: none;
+    display: flex;
+    justify-content:space-around;
+}
+
+.footer-End > ul > li > a{
+    text-decoration: none;
+    color:black;
+
+}
+.footer-End > ul {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -250px;
+}
+
+
